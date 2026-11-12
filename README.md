@@ -1,64 +1,86 @@
 # Wisdom Huno Tetteh — Portfolio
 
-A personal portfolio website for a Web Developer based in Accra, Ghana. Built as part of an internship task (Task 3: Build Your Own Portfolio Site).
+A responsive personal portfolio for **Wisdom Huno Tetteh**, an IT student and web developer based in Accra, Ghana. This project was built for CodeAlpha Internship Task 3: Build Your Own Portfolio Site.
+
+[Live Demo](https://codealphapersonalportfolio.vercel.app/) · [Source Code](https://github.com/brah14/CodeAlpha_PersonalPortfolio)
+
+## Preview
+
+<p align="center">
+  <img src="assets/screenshots/portfolio-desktop.png" alt="Desktop view of Wisdom Huno Tetteh's portfolio homepage" width="760" />
+</p>
+
+<p align="center">
+  <img src="assets/screenshots/portfolio-mobile.png" alt="Mobile view of Wisdom Huno Tetteh's portfolio homepage" width="280" />
+</p>
 
 ## Features
 
-- Sections: Hero, About, Skills, Projects, Contact
-- Responsive layout (mobile, tablet, desktop)
-- Smooth scrolling and scroll-triggered fade-in animations
-- Hover effects on cards, buttons and links
-- Downloadable resume
-- Working contact form (sends messages to email via Formspree)
-- Lucide icons and a Kente-inspired colour palette
+- Responsive layout for mobile, tablet, and desktop screens
+- Clear Hero, About, Skills, Projects, Resume, and Contact sections
+- Real project screenshots linked to live demos and GitHub repositories
+- Smooth anchor navigation, scroll-reveal effects, and interactive hover states
+- One-time staggered hero entrance animation with reduced-motion support
+- Embedded PDF resume page with a separate download option
+- Contact form powered by Formspree
+- Accessible mobile navigation, keyboard focus styles, and skip-to-content link
+- Kente-inspired colour palette and Lucide icons
 
-## Tech Stack
+## Built With
 
 - HTML5
-- CSS3 (custom properties, Grid, Flexbox)
-- JavaScript (Intersection Observer, Fetch API)
-- [Lucide](https://lucide.dev) icons (CDN)
-- [Formspree](https://formspree.io) for the contact form
+- CSS3 — custom properties, Flexbox, Grid, responsive media queries, and animations
+- Vanilla JavaScript — Intersection Observer, mobile navigation, and Fetch API
+- [Lucide](https://lucide.dev) — icons
+- [Formspree](https://formspree.io) — contact form handling
 
 ## Project Structure
 
-```
-my-portfolio/
-├── index.html      # Page structure and content
-├── style.css       # All styling and responsive rules
-├── script.js       # Scroll animations, icons, contact form logic
-├── AK9A0346.jpg    # Profile photo
-├── assets/          # Project thumbnail images
-├── resume.html      # Web resume linked from the hero and navigation
+```text
+CodeAlpha_PersonalPortfolio/
+├── index.html                         # Main portfolio page
+├── resume.html                        # In-site PDF resume viewer
+├── style.css                          # Styling, animations, and responsive rules
+├── script.js                          # Navigation, scroll effects, and contact form logic
+├── AK9A0346.jpg                       # Profile image
+├── Wisdom_Huno_Tetteh_Resume.pdf      # Downloadable resume
+├── assets/
+│   ├── calculator-thumbnail.png       # Calculator project screenshot
+│   ├── image-gallery-thumbnail.png    # Image Gallery project screenshot
+│   ├── invoisory-thumbnail.png        # Invoisory project screenshot
+│   └── screenshots/                   # README preview images
 └── README.md
 ```
 
 ## Run Locally
 
-1. Download or clone this folder
-2. Open `index.html` in any browser
+1. Clone the repository.
 
-No build tools or installs needed.
+   ```bash
+   git clone https://github.com/brah14/CodeAlpha_PersonalPortfolio.git
+   ```
 
-## Deployment
+2. Open the project folder.
 
-Deployed on Netlify: drag and drop the project folder at [app.netlify.com](https://app.netlify.com).
+   ```bash
+   cd CodeAlpha_PersonalPortfolio
+   ```
 
-It also works on GitHub Pages (Settings → Pages → deploy from the `main` branch).
+3. Open `index.html` in your browser, or use a local development extension such as VS Code Live Server.
 
-## Customising
+No packages or build tools are required.
 
-- **Contact details:** edit the links in the Contact section of `index.html`
-- **Projects:** edit the project cards in the Projects section of `index.html`
-- **Colours:** change the CSS variables at the top of `style.css`
-- **Resume:** edit the content in `resume.html`
-- **Contact form:** replace the Formspree endpoint in `script.js`
+## Live Deployment
+
+The portfolio is deployed on Vercel:
+
+[https://codealphapersonalportfolio.vercel.app/](https://codealphapersonalportfolio.vercel.app/)
 
 ## Contact
 
-- GitHub: [github.com/brah14](https://github.com/brah14)
-- LinkedIn: [Wisdom Tetteh Huno](https://www.linkedin.com/in/wisdom-huno-tetteh-6aa8853ab)
-- Email: hunowisdom14@gmail.com
+- GitHub: [@brah14](https://github.com/brah14)
+- LinkedIn: [Wisdom Huno Tetteh](https://www.linkedin.com/in/wisdom-huno-tetteh-6aa8853ab)
+- Email: [hunowisdom14@gmail.com](mailto:hunowisdom14@gmail.com)
 
 ## Author
 

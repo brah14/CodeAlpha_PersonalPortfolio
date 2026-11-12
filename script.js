@@ -1,3 +1,14 @@
+// Enable one-time hero animations after JavaScript is available.
+document.body.classList.add('js-enabled');
+
+window.addEventListener(
+  'load',
+  () => {
+    requestAnimationFrame(() => document.body.classList.add('page-ready'));
+  },
+  { once: true },
+);
+
 // Reveal sections as they enter the viewport.
 const fadeElements = document.querySelectorAll('.fade');
 
